@@ -1,5 +1,9 @@
 name: 'Auto approve/merge Dependabot (native) PR'
 description: 'Auto approve and merge Dependabot (native) pull-requests.'
+branding:
+  icon: 'git-merge'
+  color: blue
+author: kocal
 inputs:
   github-token:
     description: 'The GitHub token to use for auto-approving and auto-merging, can be ${{ secrets.GITHUB_TOKEN }}.'
