@@ -1,0 +1,14 @@
+{
+  "name": "@yproximite/auto-approve-and-merge-dependabot-pr-action",
+  "version": "0.0.0-development",
+  "description": "GitHub Action for auto-approving and auto-merging GitHub-native Dependabot pull requests.",
+  "dependencies": {
+    "@actions/core": "^1.2.7",
+    "@actions/github": "^4.0.0",
+    "semver": "^7.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yproximite/auto-approve-and-merge-dependabot.git"
+  }
+}
