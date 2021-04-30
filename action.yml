@@ -1,12 +1,12 @@
-name: 'Auto approve/merge GitHub-native Dependabot PR'
-description: 'GitHub Action for auto-approving and auto-merging GitHub-native Dependabot pull requests.'
+name: 'Auto approve/merge Dependabot (native) PR'
+description: 'Auto approve and merge Dependabot (native) pull-requests.'
 inputs:
   github-token:
     description: 'The GitHub token to use for auto-approving and auto-merging, can be ${{ secrets.GITHUB_TOKEN }}.'
     required: true
   update-type:
     description: 'Type of update for auto-merging, can be "major", "minor" or "patch".'
-    default: 'all',
+    default: 'all'
     required: false
 runs:
   using: 'node12'
