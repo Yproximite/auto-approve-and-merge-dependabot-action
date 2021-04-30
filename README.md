@@ -17,8 +17,8 @@ jobs:
   auto-approve:
     runs-on: ubuntu-latest
     steps:
-      - uses: Yproximite/auto-approve-and-merge-dependabot-action@v0.1
+      - uses: Yproximite/auto-approve-and-merge-dependabot-action@v1
         with:
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           update-type: 'minor'
 ```
