@@ -6,7 +6,7 @@ branding:
 author: kocal
 inputs:
   github-token:
-    description: 'The GitHub token to use for auto-approving and auto-merging, can be ${{ secrets.GITHUB_TOKEN }}.'
+    description: 'The GitHub token to use for auto-approving and auto-merging.'
     required: true
   update-type:
     description: 'Type of update for auto-merging, can be "major", "minor" or "patch".'
