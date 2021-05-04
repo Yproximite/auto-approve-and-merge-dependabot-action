@@ -1,3 +1,7 @@
+# :warning: Archived ⚠️ # 
+
+See https://hugo.alliau.me/2021/05/04/migration-to-github-native-dependabot-solutions-for-auto-merge-and-action-secrets/#re-enable-auto-merging-with-auto-approve for a better solution for auto-approve and auto-merging Dependabot pull requests.
+
 # Auto approve and merge Dependabot PR action
 
 GitHub Action for auto-approving and auto-merging Dependabot pull requests.
